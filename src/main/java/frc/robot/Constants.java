@@ -126,8 +126,8 @@ public final class Constants {
 
         // Motor and encoder inversions
         public static final boolean CANCODER_INVERT = false;
-        public static final boolean DRIVE_MOTOR_INVERT = false;
-        public static final boolean ANGLE_MOTOR_INVERT = false;
+        public static final boolean DRIVE_MOTOR_INVERT = true;
+        public static final boolean ANGLE_MOTOR_INVERT = true;
         public static final boolean INVERT_GYRO = false;
 
         // Module locations, in meters, as distances to the center of the robot.
